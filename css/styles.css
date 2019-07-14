@@ -1,0 +1,193 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center !important; /* now because this makes the entire page center aligned we should left align title :) */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+p {
+  color: #8F8F8F;
+}
+/* Headings Section */
+
+.big-heading {
+  font-weight: 900 !important;
+  font-size: 3rem !important;
+  line-height: 1.5 !important;
+}
+
+.section-heading {
+  font-size: 3rem !important;
+  line-height: 1.5rem !important;
+  font-weight: 900 !important;
+  padding-bottom: 4%;
+
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15% !important;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem !important;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.8rem !important;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+/* Title section */
+/*
+#title {
+  text-align: left;   we can add this right in down here to aviod repeating :)
+}
+*/
+#title .container-fluid {
+  padding: 3% 15% 7% !important;
+  text-align: left;
+
+}
+
+/* download butttons */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.phone-img {
+  width: 65%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+
+}
+
+/* Features section */
+
+#features {
+
+padding: 7% 10%;
+position: relative;
+/* z-index: 1; works perfect without this, check the flowchart for more info :) */
+}
+
+.feature-title {
+  font-size: 1.1rem !important;
+  font-weight: 900 !important;
+}
+
+.feature-icon {
+  /* font-size: 70px;  let's change it with fa-4x insid out HTML :)*/
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #FF4C68;
+}
+
+.features-col {
+padding: 5% !important;
+}
+
+/* Testimonials */
+
+#testimonials {
+  /* padding: 7% 15%; added to .carousel-item because the position of buttons :) -update added to container-fluid */
+  background: #EF8172;
+
+}
+
+.testimonial-text {
+  font-weight: 700 !important;
+  font-size: 2.4rem !important;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background: #EF8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* pricing section */
+
+#pricing {
+padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem !important;
+  font-weight: 900 !important;
+  line-height: 1.5rem !important;
+  padding: 7% 0;
+}
+
+ .pricing-box {
+   padding: 3% 2%;
+ }
+
+@media (max-width: 992px) {
+  #title {
+    text-align: center; /* Not this one bro :| you should keep this, this one is diffferent it's for being responsive don't screw with this one :| thx. */
+  }
+
+  .phone-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+
+
+.social-media-icon {
+margin: 20px 10px;
+}
+
+.Copyright {
+  padding-bottom: 3%;
+}
